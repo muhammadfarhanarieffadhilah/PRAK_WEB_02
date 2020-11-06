@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century gathic;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("foto.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ul li{
+        display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: white;
+    color: black
+}
+ul li.active a{
+    background-color: white;
+    color:black
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: burlywood;
+    font-size: 50px;
+}
+.title h2{
+    color: burlywood;
+    font-size: 50px;
+    text-decoration: underline;
+}
